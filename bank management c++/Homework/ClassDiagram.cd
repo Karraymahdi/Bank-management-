@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="account">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIACAAAARAACAAAAAACAAAAAAgAAAAAAgAgAACUAA=</HashCode>
+      <FileName>account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="employer">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACAAAAAgAAIAAAAAAAAAAIAAAAAAACBAA=</HashCode>
+      <FileName>employer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="person">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAABAQACAAACAIgAAAAAEAAAAAAAARAAABAA=</HashCode>
+      <FileName>Person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="student" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="person" ManuallyRouted="true">
+      <Path>
+        <Point X="8.75" Y="5.478" />
+        <Point X="8.75" Y="5.958" />
+        <Point X="6.5" Y="5.958" />
+        <Point X="6.5" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="account">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.133" Y="0.048" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>JAQAAAAAAACCAEAAAAAAIAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>student.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
